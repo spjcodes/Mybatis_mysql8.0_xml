@@ -21,6 +21,22 @@ public class ServiceMangeImpl implements ServiceManage {
     }
 
     @Override
+    public List<Student> getStudentByName(String name) {
+        sqlSession = GetSqlSessionFactor.getSqlSession();
+        List<Student> sl = sqlSession.selectList("seleteStudentByName", name);
+        return sl;
+    }
+
+    @Override
+    public List<Student> getStudentLikeName(String name) {
+
+        List<Student> sl = new ArrayList<Student>();
+        sqlSession = GetSqlSessionFactor.getSqlSession();
+        sl = sqlSession.selectList("selectStudnetLikeName",name);
+        return sl;
+    }
+
+    @Override
     public List<Student> getStudents() {
 
         List<Student> sl = new ArrayList<Student>();

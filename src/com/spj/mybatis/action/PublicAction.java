@@ -4,6 +4,7 @@ import com.spj.mybatis.model.Student;
 import com.spj.mybatis.service.ServiceMangeImpl;
 import org.junit.Test;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class PublicAction {
@@ -48,4 +49,26 @@ public class PublicAction {
             System.out.println("info \n" + "............update student successful............");
         }
     }
+
+    @Test
+    public void getStudetByName() {
+
+        String NameKeyWord = "德玛";
+        List<Student> sl = serviceMange.getStudentByName(NameKeyWord);
+        for (Student s : sl) {
+            System.out.println(s.toString());
+        }
+
+    }
+
+    @Test
+    public  void getStudnetLikeName() {
+
+        String NameKeyWord = "之";
+        List<Student> sl = serviceMange.getStudentLikeName(NameKeyWord);
+        for (Student s : sl) {
+            System.out.println(s.toString());
+        }
+    }
+
 }

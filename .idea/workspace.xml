@@ -2,68 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5990391b-a4c2-4e0a-b4f5-59213aa9b4fa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_logging_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/javassist_3_24_1_GA.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/ognl_3_2_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mybatis_xml.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Mybatis_xml/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Mybatis_xml/Resource/Mybatis_config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Mybatis_xml/Resource/MysqlDB_config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Mybatis_xml/Resource/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Mybatis_xml/com/spj/mybatis/action/PublicAction.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Mybatis_xml/com/spj/mybatis/dao/StudentDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Mybatis_xml/com/spj/mybatis/model/Student.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Mybatis_xml/com/spj/mybatis/service/ServiceManage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Mybatis_xml/com/spj/mybatis/service/ServiceMangeImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Mybatis_xml/com/spj/mybatis/utils/GetSqlSessionFactor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Mybatis_xml/libs/ant-1.10.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Mybatis_xml/libs/ant-launcher-1.10.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Mybatis_xml/libs/asm-7.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Mybatis_xml/libs/cglib-3.2.10.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Mybatis_xml/libs/commons-logging-1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Mybatis_xml/libs/javassist-3.24.1-GA.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Mybatis_xml/libs/log4j-1.2.17.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Mybatis_xml/libs/log4j-api-2.11.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Mybatis_xml/libs/log4j-core-2.11.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Mybatis_xml/libs/mybatis-3.5.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Mybatis_xml/libs/mysql-connector-java-8.0.11.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Mybatis_xml/libs/ognl-3.2.10.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Mybatis_xml/libs/slf4j-api-1.7.26.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Mybatis_xml/libs/slf4j-log4j12-1.7.26.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Mybatis_xml/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Resource/Mybatis_config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Resource/MysqlDB_config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Resource/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/spj/mybatis/action/PublicAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/spj/mybatis/dao/StudentDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/spj/mybatis/model/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/spj/mybatis/service/ServiceManage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/spj/mybatis/service/ServiceMangeImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/spj/mybatis/utils/GetSqlSessionFactor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/libs/ant-1.10.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/libs/ant-launcher-1.10.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/libs/asm-7.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/libs/cglib-3.2.10.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/libs/commons-logging-1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/libs/javassist-3.24.1-GA.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/libs/log4j-1.2.17.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/libs/log4j-api-2.11.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/libs/log4j-core-2.11.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/libs/mybatis-3.5.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/libs/mysql-connector-java-8.0.11.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/libs/ognl-3.2.10.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/libs/slf4j-api-1.7.26.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/libs/slf4j-log4j12-1.7.26.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/spj/mybatis/action/PublicAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/spj/mybatis/action/PublicAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/spj/mybatis/dao/StudentDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/spj/mybatis/dao/StudentDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/spj/mybatis/service/ServiceManage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/spj/mybatis/service/ServiceManage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/spj/mybatis/service/ServiceMangeImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/spj/mybatis/service/ServiceMangeImpl.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -84,6 +27,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="StudentDao" value="1" />
+          <entry key="class" value="1" />
           <entry key="iml" value="1" />
           <entry key="java" value="7" />
           <entry key="properties" value="3" />
@@ -92,6 +36,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="CLASS" value="1" />
           <entry key="IDEA_MODULE" value="1" />
           <entry key="JAVA" value="7" />
           <entry key="PLAIN_TEXT" value="1" />
@@ -102,18 +47,18 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="6" />
-          <entry key="java" value="1967" />
+          <entry key="java" value="2438" />
           <entry key="properties" value="167" />
-          <entry key="xml" value="657" />
+          <entry key="xml" value="1060" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1967" />
+          <entry key="JAVA" value="2438" />
           <entry key="PLAIN_TEXT" value="6" />
           <entry key="Properties" value="167" />
           <entry key="SQL" value="20" />
-          <entry key="XML" value="637" />
+          <entry key="XML" value="1040" />
         </counts>
       </usages-collector>
     </session>
@@ -125,15 +70,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="352">
               <caret line="16" selection-start-line="16" selection-end-line="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Resource/Mybatis_config.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -153,8 +89,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/spj/mybatis/service/ServiceManage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="230">
+              <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -165,11 +101,21 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/spj/mybatis/service/ServiceMangeImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="40" column="61" selection-start-line="40" selection-start-column="61" selection-end-line="40" selection-end-column="61" />
+            <state relative-caret-position="340">
+              <caret line="34" column="57" selection-start-line="34" selection-start-column="57" selection-end-line="34" selection-end-column="57" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#930#939#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/src/libs/mybatis-3.5.2.jar!/org/apache/ibatis/cursor/Cursor.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -177,8 +123,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/spj/mybatis/action/PublicAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1034">
-              <caret line="47" column="39" selection-start-line="47" selection-start-column="39" selection-end-line="47" selection-end-column="39" />
+            <state relative-caret-position="340">
+              <caret line="67" column="58" selection-start-line="67" selection-start-column="58" selection-end-line="67" selection-end-column="58" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -186,11 +132,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/spj/mybatis/dao/StudentDao.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="308">
-              <caret line="38" column="9" lean-forward="true" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
@@ -213,11 +159,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/log4j.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" column="22" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="22" />
+            <state relative-caret-position="154">
+              <caret line="7" column="35" lean-forward="true" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -243,12 +189,12 @@
         <option value="$PROJECT_DIR$/src/com/spj/mybatis/model/Student.java" />
         <option value="$PROJECT_DIR$/src/com/spj/mybatis/utils/GetSqlSessionFactor.java" />
         <option value="$PROJECT_DIR$/src/com/spj/mybatis/action/Public.java" />
-        <option value="$PROJECT_DIR$/src/com/spj/mybatis/service/ServiceManage.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/log4j.properties" />
-        <option value="$PROJECT_DIR$/src/com/spj/mybatis/dao/StudentDao.xml" />
-        <option value="$PROJECT_DIR$/src/com/spj/mybatis/action/PublicAction.java" />
+        <option value="$PROJECT_DIR$/src/com/spj/mybatis/service/ServiceManage.java" />
         <option value="$PROJECT_DIR$/src/com/spj/mybatis/service/ServiceMangeImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/spj/mybatis/action/PublicAction.java" />
+        <option value="$PROJECT_DIR$/src/com/spj/mybatis/dao/StudentDao.xml" />
       </list>
     </option>
   </component>
@@ -309,20 +255,7 @@
               <item name="Mybatis_xml" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Mybatis_xml" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mybatis_xml" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Mybatis_xml" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mybatis_xml" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="libs" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -336,7 +269,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565759511994" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565764440986" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -356,7 +289,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PublicAction.getStudents">
+  <component name="RunManager" selected="JUnit.PublicAction.getStudnetLikeName">
     <configuration name="PublicAction.addStudent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Mybatis_xml" />
       <extension name="coverage">
@@ -373,38 +306,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PublicAction.deleteStudent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Mybatis_xml" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.spj.mybatis.action.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.spj.mybatis.action" />
-      <option name="MAIN_CLASS_NAME" value="com.spj.mybatis.action.PublicAction" />
-      <option name="METHOD_NAME" value="deleteStudent" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PublicAction.getStudent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Mybatis_xml" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.spj.mybatis.action.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.spj.mybatis.action" />
-      <option name="MAIN_CLASS_NAME" value="com.spj.mybatis.action.PublicAction" />
-      <option name="METHOD_NAME" value="getStudent" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PublicAction.getStudents" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Mybatis_xml" />
       <extension name="coverage">
@@ -416,6 +317,38 @@
       <option name="PACKAGE_NAME" value="com.spj.mybatis.action" />
       <option name="MAIN_CLASS_NAME" value="com.spj.mybatis.action.PublicAction" />
       <option name="METHOD_NAME" value="getStudents" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PublicAction.getStudetByName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Mybatis_xml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.spj.mybatis.action.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.spj.mybatis.action" />
+      <option name="MAIN_CLASS_NAME" value="com.spj.mybatis.action.PublicAction" />
+      <option name="METHOD_NAME" value="getStudetByName" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PublicAction.getStudnetLikeName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Mybatis_xml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.spj.mybatis.action.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.spj.mybatis.action" />
+      <option name="MAIN_CLASS_NAME" value="com.spj.mybatis.action.PublicAction" />
+      <option name="METHOD_NAME" value="getStudnetLikeName" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -439,18 +372,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.PublicAction.addStudent" />
-      <item itemvalue="JUnit.PublicAction.getStudent" />
       <item itemvalue="JUnit.PublicAction.getStudents" />
-      <item itemvalue="JUnit.PublicAction.deleteStudent" />
       <item itemvalue="JUnit.PublicAction.udateStudnet" />
+      <item itemvalue="JUnit.PublicAction.getStudetByName" />
+      <item itemvalue="JUnit.PublicAction.getStudnetLikeName" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PublicAction.getStudnetLikeName" />
+        <item itemvalue="JUnit.PublicAction.getStudetByName" />
         <item itemvalue="JUnit.PublicAction.getStudents" />
         <item itemvalue="JUnit.PublicAction.udateStudnet" />
         <item itemvalue="JUnit.PublicAction.addStudent" />
-        <item itemvalue="JUnit.PublicAction.deleteStudent" />
-        <item itemvalue="JUnit.PublicAction.getStudent" />
       </list>
     </recent_temporary>
   </component>
@@ -465,32 +398,11 @@
       <option name="presentableId" value="Default" />
       <updated>1565667453372</updated>
       <workItem from="1565667457237" duration="8719000" />
-      <workItem from="1565756233622" duration="3274000" />
+      <workItem from="1565756233622" duration="7429000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PublicAction_udateStudnet - 2019.08.14 at 13h 00m 13s.xml">
-      <configuration name="PublicAction.udateStudnet" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PublicAction_udateStudnet - 2019.08.14 at 13h 01m 07s.xml">
-      <configuration name="PublicAction.udateStudnet" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PublicAction_udateStudnet - 2019.08.14 at 13h 02m 13s.xml">
-      <configuration name="PublicAction.udateStudnet" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PublicAction_addStudent - 2019.08.14 at 13h 02m 35s.xml">
-      <configuration name="PublicAction.addStudent" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PublicAction_deleteStudent - 2019.08.14 at 13h 02m 42s.xml">
-      <configuration name="PublicAction.deleteStudent" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PublicAction_addStudent - 2019.08.14 at 13h 02m 48s.xml">
-      <configuration name="PublicAction.addStudent" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PublicAction_udateStudnet - 2019.08.14 at 13h 02m 52s.xml">
-      <configuration name="PublicAction.udateStudnet" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PublicAction_udateStudnet - 2019.08.14 at 13h 04m 10s.xml">
       <configuration name="PublicAction.udateStudnet" configurationId="JUnit" />
     </history-entry>
@@ -500,12 +412,34 @@
     <history-entry file="PublicAction_getStudents - 2019.08.14 at 13h 04m 45s.xml">
       <configuration name="PublicAction.getStudents" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="PublicAction_getStudetByName - 2019.08.14 at 14h 16m 40s.xml">
+      <configuration name="PublicAction.getStudetByName" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PublicAction_getStudetByName - 2019.08.14 at 14h 20m 14s.xml">
+      <configuration name="PublicAction.getStudetByName" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PublicAction_getStudetByName - 2019.08.14 at 14h 21m 30s.xml">
+      <configuration name="PublicAction.getStudetByName" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PublicAction_getStudnetLikeName - 2019.08.14 at 14h 29m 42s.xml">
+      <configuration name="PublicAction.getStudnetLikeName" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PublicAction_getStudnetLikeName - 2019.08.14 at 14h 30m 31s.xml">
+      <configuration name="PublicAction.getStudnetLikeName" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PublicAction_getStudnetLikeName - 2019.08.14 at 14h 30m 45s.xml">
+      <configuration name="PublicAction.getStudnetLikeName" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PublicAction_getStudnetLikeName - 2019.08.14 at 14h 31m 56s.xml">
+      <configuration name="PublicAction.getStudnetLikeName" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11993000" />
+    <option name="totallyTimeSpent" value="16148000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2533512" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -517,12 +451,12 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3297587" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32885906" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.33020133" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.18657719" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.3297587" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
@@ -578,23 +512,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/spj/mybatis/service/ServiceManage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/spj/mybatis/model/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Resource/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
@@ -609,17 +526,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/spj/mybatis/dao/StudentDao.xml">
+    <entry file="file://$PROJECT_DIR$/src/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="38" column="9" lean-forward="true" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+        <state relative-caret-position="154">
+          <caret line="7" column="35" lean-forward="true" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/spj/mybatis/action/PublicAction.java">
+    <entry file="file://$PROJECT_DIR$/src/com/spj/mybatis/model/Student.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1034">
-          <caret line="47" column="39" selection-start-line="47" selection-start-column="39" selection-end-line="47" selection-end-column="39" />
+        <state relative-caret-position="44">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/src/libs/mybatis-3.5.2.jar!/org/apache/ibatis/cursor/Cursor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/spj/mybatis/service/ServiceManage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -628,18 +559,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/spj/mybatis/service/ServiceMangeImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="40" column="61" selection-start-line="40" selection-start-column="61" selection-end-line="40" selection-end-column="61" />
+        <state relative-caret-position="340">
+          <caret line="34" column="57" selection-start-line="34" selection-start-column="57" selection-end-line="34" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#930#939#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/spj/mybatis/action/PublicAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="67" column="58" selection-start-line="67" selection-start-column="58" selection-end-line="67" selection-end-column="58" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/log4j.properties">
+    <entry file="file://$PROJECT_DIR$/src/com/spj/mybatis/dao/StudentDao.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="22" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="22" />
+        <state relative-caret-position="308">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>

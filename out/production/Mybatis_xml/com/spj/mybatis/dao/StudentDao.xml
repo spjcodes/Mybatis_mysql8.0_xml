@@ -3,6 +3,7 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.spj.mybatis.model.Student">
+    <!--#{id}占位符，类似于jdbc中的？,其中{}内的内容可以随便写-->
     <select id="selectStudent" parameterType="int" resultType="com.spj.mybatis.model.Student">
       select * from student where id = #{id}
     </select>
@@ -10,6 +11,15 @@
     <!--返回的是一个集合类型，设置差数为集合所包含的数据类型，可以使用resultType,也可以使用resultMap,两者只能用一个-->
     <select id="selectStudents" resultType="com.spj.mybatis.model.Student">
         select * from student
+    </select>
+
+    <!--${}字符串拼接符，可以输入任何合法字符无法防止sql注入-->
+    <select id="seleteStudentByName" parameterType="string" resultType="com.spj.mybatis.model.Student">
+        select * from student where name like '%${NamekeyWord}%'
+    </select>
+
+    <select id="selectStudnetLikeName" parameterType="string" resultType="com.spj.mybatis.model.Student">
+        select s.id, s.name, s.sex from student s where name like concat('%',#{keyWord},'%')
     </select>
 
     <insert id="addStudent" parameterType="com.spj.mybatis.model.Student">
