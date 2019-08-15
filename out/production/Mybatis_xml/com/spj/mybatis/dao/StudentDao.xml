@@ -18,6 +18,7 @@
         select * from student where name like '%${NamekeyWord}%'
     </select>
 
+    <!--字符串拼接可以使用mysql的concat()函数，防止sql注入-->
     <select id="selectStudnetLikeName" parameterType="string" resultType="com.spj.mybatis.model.Student">
         select s.id, s.name, s.sex from student s where name like concat('%',#{keyWord},'%')
     </select>
@@ -46,4 +47,164 @@
         where
           id = #{id}
     </update>
+
+
+    <!--动态SQL-->
+    <!--类似java
+     if(/.../)
+      if (/.../)
+    如果if标签的条件真则进行拼接，为讲的不进行拼接-->
+    <select id="selectStudentByInfo" parameterType="com.spj.mybatis.model.Student" resultType="com.spj.mybatis.model.Student">
+        select *
+         from
+          student
+        where
+         1=1
+        <if test="id!=null and id!=''" >
+            and id = #{id}
+        </if>
+        <if test="name!=null and name!=''">
+            and name = #{name}
+        </if>
+    </select>
+
+    <!--
+    类似java中的
+    switch() {
+    case1 :
+        /。。。/ ;break;
+    ...
+    casen :
+         /。。。/ ;break;
+    default:
+        /。。。/
+    }
+    对when的条件逐条进行检查，
+    如果为真则进行拼接，并执行，
+    如果为假则对下一条进行判断，
+    都为假则拼接otherwise中的sql-->
+    <select id="selectStudentLikeInfo" parameterType="com.spj.mybatis.model.Student" resultType="com.spj.mybatis.model.Student">
+        select
+          *
+        from
+          student
+        where
+          1=1
+       <choose>
+           <when test="name!=null and name!=''">
+               and name like concat('%',#{name},'%')
+           </when>
+           <when test="sex!=null and sex!=''">
+               and sex = #{sex}
+           </when>
+           <otherwise >
+               and math > 91
+           </otherwise>
+       </choose>
+    </select>
+
+    <!--
+    可以对where 1=1 进行替换，同时保证sql的合法性
+    对where标签内的标签进行判断，为真则进行拼接，并且加入where关键字，为假则不进行拼接，有多余的or and
+    <where> 标签也可将其去除
+    -->
+    <select id="selectStudentByStudentInfo" resultType="com.spj.mybatis.model.Student" parameterType="com.spj.mybatis.model.Student">
+        select * from student
+        <where>
+            <if test="name!=null and name!=''">
+                and name = #{name}
+            </if>
+        </where>
+    </select>
+
+
+    <!--trim标签去除特殊字符串，可定制特殊的需求
+    prefix: 定义拼接的前缀
+    prefixOVerrider： 定义去除的字段
+    -->
+    <select id="selectStudentByStudentInfo1" resultType="com.spj.mybatis.model.Student" parameterType="com.spj.mybatis.model.Student">
+        select * from student
+        <trim prefix="where" prefixOverrides="and,or">
+            <if test="name!=null and name!=''">
+                and name = #{name}
+            </if>
+        </trim>
+    </select>
+
+    <!--
+    set标签会对里面的if标签进行判断，为真的才会进行拼接和更新对应字段，
+    故其性能相对hibernate较好
+    在拼接时会动态前置一个set同时会xio'a'chu
+    -->
+    <update id="updateStudnetBySet" parameterType="com.spj.mybatis.model.Student">
+        update student
+        <set >
+            <if test="id!=null and id!=''" >
+                id = #{id},
+            </if>
+            <if test="name!=null and name!=''" >
+                name = #{name},
+            </if>
+            <if test="english!=null and english!=''" >
+                english = #{english},
+            </if>
+            <if test="math!=null and math!=''" >
+                math = #{math},
+            </if>
+            <if test="java!=null and java!=''" >
+                java = #{java},
+            </if>
+            <if test="sex!=null and sex!=''" >
+                sex = #{sex},
+            </if>
+        </set>
+    </update>
+
+    <!--类似java中的foreach(studnet: list)
+    item: 循环中的当前元素
+    colection: 传递过来的差数类型 ，可为list arraylist collection map集合的键
+                                   pojo包装类中数组或集合类的属性名
+    index: 当前元素在在集合中的下标
+    open: 以什么符号将当前元素包裹起来 前面的
+    separator: 以什么符号将当前元素包裹起来 后面的
+    close: 元素间分割符
+    使用map时index 是键 item是值
+    -->
+    <insert id="addStudentByList" parameterType="list" >
+        insert into student values
+        <foreach item="student" collection="list" index="" open="" separator="," close="">
+           ( #{student.id},#{student.name},#{student.english},
+            #{student.math},#{student.java},#{student.sex} )
+        </foreach>
+    </insert>
+
+
+    <select id="selectStudnetsLike" resultType="com.spj.mybatis.model.Student" parameterType="com.spj.mybatis.model.Student">
+        <bind name="pattern" value="'%' + _parameter.getName() + '%'" />
+        select * from student
+        <where>
+            <if test="name!=null and name!=''">
+                name like #{pattern}
+            </if>
+        </where>
+    </select>
+
+
+    <select id="selectStudnetsLike1" resultType="com.spj.mybatis.model.Student" parameterType="com.spj.mybatis.model.Student">
+        <bind name="pattern" value="'%' + name + '%'" />
+        select * from student
+        <where>
+            <if test="name!=null and name!=''">
+                name like #{pattern}
+            </if>
+        </where>
+    </select>
+
+
+
+
+
+
+
+
 </mapper>

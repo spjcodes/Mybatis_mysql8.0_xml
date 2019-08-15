@@ -6,7 +6,6 @@ import org.apache.ibatis.session.SqlSessionFactory;
 import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 
 import java.io.IOException;
-import java.io.InputStream;
 import java.io.Reader;
 
 public class GetSqlSessionFactor {
@@ -24,5 +23,6 @@ public class GetSqlSessionFactor {
         SqlSessionFactory ssf = ssfb.build(reader);
         SqlSession session = ssf.openSession();
         return session;
+
     }
 }
