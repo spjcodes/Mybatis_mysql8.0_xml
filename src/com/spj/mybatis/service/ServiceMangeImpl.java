@@ -1,7 +1,9 @@
 package com.spj.mybatis.service;
 
+import com.spj.mybatis.dao.StudentDao;
 import com.spj.mybatis.model.Student;
 import com.spj.mybatis.utils.GetSqlSessionFactor;
+import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.session.SqlSession;
 
 import java.util.ArrayList;
@@ -72,6 +74,35 @@ public class ServiceMangeImpl implements ServiceManage {
         List<Student> sl = sqlSession.selectList("selectStudnetsLike", student);
         return sl;
     }
+
+
+
+    /**
+     *
+     * 接口式编程
+     * 得到sqlSession的一个映射
+     * 使用正确描述每个语句的参数和返回值的接口（比如 SutdentDao.class）
+     * 你现在不仅可以执行更清晰和类型安全的代码，
+     * 而且还不用担心易错的字符串字面值以及强制类型转换。
+     */
+    @Override
+    public List<Student> getStudentsi() {
+        StudentDao studentDao =  GetSqlSessionFactor.getSqlSession().getMapper(StudentDao.class);
+        ArrayList<Student> sl = (ArrayList<Student>) studentDao.getStudentsi();
+        return sl;
+    }
+
+    /**
+     *
+     * 采用java注解
+     */
+    @Override
+    public List<Student> getStudentsi1() {
+        StudentDao studentDao= GetSqlSessionFactor.getSqlSession().getMapper(StudentDao.class);
+        return studentDao.getStudentsi1();
+    }
+
+
 
     @Override
     public List<Student> getStudentLike(String name) {

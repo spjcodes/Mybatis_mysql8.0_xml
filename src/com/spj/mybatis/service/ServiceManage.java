@@ -17,11 +17,16 @@ public interface ServiceManage {
     public List<Student> getStudentLike(Student student);
     public List<Student> getStudentByStudentInfo(Student student);
     public List<Student> getStudents();
+
+    public List<Student> getStudentsi();
+    public List<Student> getStudentsi1();
+
     public boolean addStudent(Student student);
     public boolean addStudentByStudents(Map sm);
     public boolean addStudentByStudents(List<Student> sl);
     public boolean deleteStudent(int id);
     public boolean updateStudent(Student student);
+
 
 
 }

@@ -166,4 +166,23 @@ public class PublicAction {
         }
     }
 
+
+    @Test
+    public void getStudenti() {
+        ArrayList<Student> sl = (ArrayList<Student>) serviceMange.getStudentsi();
+        for (Student s :
+             sl) {
+            System.out.println(s.toString());
+        }
+    }
+
+    @Test
+    public void getStudenti1() {
+        List<Student> sl = serviceMange.getStudentsi1();
+        for (Student s :
+                sl) {
+            System.out.println(s.toString());
+        }
+    }
+
 }

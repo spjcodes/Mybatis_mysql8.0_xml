@@ -7,8 +7,6 @@
       <change beforePath="$PROJECT_DIR$/src/com/spj/mybatis/dao/StudentDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/spj/mybatis/dao/StudentDao.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/spj/mybatis/service/ServiceManage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/spj/mybatis/service/ServiceManage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/spj/mybatis/service/ServiceMangeImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/spj/mybatis/service/ServiceMangeImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/spj/mybatis/utils/GetSqlSessionFactor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/spj/mybatis/utils/GetSqlSessionFactor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/log4j.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,9 +19,10 @@
     <session id="2137607385">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.open.time.29" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.34" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -31,7 +30,7 @@
           <entry key="StudentDao" value="1" />
           <entry key="class" value="7" />
           <entry key="iml" value="1" />
-          <entry key="java" value="10" />
+          <entry key="java" value="11" />
           <entry key="properties" value="3" />
           <entry key="xml" value="2" />
         </counts>
@@ -40,7 +39,7 @@
         <counts>
           <entry key="CLASS" value="7" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="10" />
+          <entry key="JAVA" value="11" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Properties" value="3" />
           <entry key="XML" value="2" />
@@ -49,43 +48,54 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="6" />
-          <entry key="java" value="3939" />
+          <entry key="java" value="4500" />
           <entry key="properties" value="191" />
-          <entry key="xml" value="3685" />
+          <entry key="xml" value="3774" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3939" />
+          <entry key="JAVA" value="4500" />
           <entry key="MybatisOgnl" value="1" />
           <entry key="PLAIN_TEXT" value="6" />
           <entry key="Properties" value="191" />
           <entry key="SQL" value="58" />
-          <entry key="XML" value="3626" />
+          <entry key="XML" value="3715" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/spj/mybatis/action/PublicAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="546">
-              <caret line="162" column="75" lean-forward="true" selection-start-line="162" selection-start-column="66" selection-end-line="162" selection-end-column="80" />
+            <state relative-caret-position="286">
+              <caret line="13" column="9" lean-forward="true" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#4699#4708#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/spj/mybatis/dao/StudentDao.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="191" column="13" lean-forward="true" selection-start-line="191" selection-start-column="13" selection-end-line="191" selection-end-column="13" />
+            <state relative-caret-position="220">
+              <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/spj/mybatis/dao/StudentDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -93,8 +103,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/spj/mybatis/service/ServiceManage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="16" column="55" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
+            <state relative-caret-position="384">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -105,8 +115,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/spj/mybatis/service/ServiceMangeImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="76" column="25" selection-start-line="76" selection-start-column="25" selection-end-line="76" selection-end-column="25" />
+            <state relative-caret-position="348">
+              <caret line="101" column="32" lean-forward="true" selection-start-line="101" selection-start-column="32" selection-end-line="101" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -120,6 +130,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -137,10 +148,11 @@
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/log4j.properties" />
         <option value="$PROJECT_DIR$/src/com/spj/mybatis/utils/GetSqlSessionFactor.java" />
-        <option value="$PROJECT_DIR$/src/com/spj/mybatis/service/ServiceManage.java" />
-        <option value="$PROJECT_DIR$/src/com/spj/mybatis/action/PublicAction.java" />
-        <option value="$PROJECT_DIR$/src/com/spj/mybatis/service/ServiceMangeImpl.java" />
         <option value="$PROJECT_DIR$/src/com/spj/mybatis/dao/StudentDao.xml" />
+        <option value="$PROJECT_DIR$/src/com/spj/mybatis/service/ServiceManage.java" />
+        <option value="$PROJECT_DIR$/src/com/spj/mybatis/service/ServiceMangeImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/spj/mybatis/dao/StudentDao.java" />
+        <option value="$PROJECT_DIR$/src/com/spj/mybatis/action/PublicAction.java" />
       </list>
     </option>
   </component>
@@ -151,8 +163,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-5" />
-    <option name="y" value="15" />
+    <option name="x" value="478" />
+    <option name="y" value="152" />
     <option name="width" value="1750" />
     <option name="height" value="970" />
   </component>
@@ -162,8 +174,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -207,6 +217,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -215,7 +227,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565865045240" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565931189237" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -235,23 +247,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PublicAction.getStudentSLikeSring1">
-    <configuration name="PublicAction.addStudents" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Mybatis_xml" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.spj.mybatis.action.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.spj.mybatis.action" />
-      <option name="MAIN_CLASS_NAME" value="com.spj.mybatis.action.PublicAction" />
-      <option name="METHOD_NAME" value="addStudents" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.PublicAction.getStudenti1">
     <configuration name="PublicAction.getStudentSLikeSring" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Mybatis_xml" />
       <extension name="coverage">
@@ -284,6 +280,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PublicAction.getStudenti" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Mybatis_xml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.spj.mybatis.action.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.spj.mybatis.action" />
+      <option name="MAIN_CLASS_NAME" value="com.spj.mybatis.action.PublicAction" />
+      <option name="METHOD_NAME" value="getStudenti" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PublicAction.getStudenti1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Mybatis_xml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.spj.mybatis.action.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.spj.mybatis.action" />
+      <option name="MAIN_CLASS_NAME" value="com.spj.mybatis.action.PublicAction" />
+      <option name="METHOD_NAME" value="getStudenti1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PublicAction.getStudents" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Mybatis_xml" />
       <extension name="coverage">
@@ -300,36 +328,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PublicAction.selectStudentByStudentInfo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Mybatis_xml" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.spj.mybatis.action.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.spj.mybatis.action" />
-      <option name="MAIN_CLASS_NAME" value="com.spj.mybatis.action.PublicAction" />
-      <option name="METHOD_NAME" value="selectStudentByStudentInfo" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="JUnit.PublicAction.getStudents" />
-      <item itemvalue="JUnit.PublicAction.selectStudentByStudentInfo" />
-      <item itemvalue="JUnit.PublicAction.addStudents" />
       <item itemvalue="JUnit.PublicAction.getStudentSLikeSring" />
       <item itemvalue="JUnit.PublicAction.getStudentSLikeSring1" />
+      <item itemvalue="JUnit.PublicAction.getStudenti" />
+      <item itemvalue="JUnit.PublicAction.getStudenti1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PublicAction.getStudenti1" />
+        <item itemvalue="JUnit.PublicAction.getStudenti" />
         <item itemvalue="JUnit.PublicAction.getStudentSLikeSring1" />
         <item itemvalue="JUnit.PublicAction.getStudentSLikeSring" />
         <item itemvalue="JUnit.PublicAction.getStudents" />
-        <item itemvalue="JUnit.PublicAction.addStudents" />
-        <item itemvalue="JUnit.PublicAction.selectStudentByStudentInfo" />
       </list>
     </recent_temporary>
   </component>
@@ -344,50 +356,51 @@
       <option name="presentableId" value="Default" />
       <updated>1565667453372</updated>
       <workItem from="1565667457237" duration="8719000" />
-      <workItem from="1565756233622" duration="25248000" />
+      <workItem from="1565756233622" duration="26491000" />
+      <workItem from="1565924099054" duration="3943000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PublicAction_getStudentSLikeSring - 2019.08.15 at 18h 21m 08s.xml">
-      <configuration name="PublicAction.getStudentSLikeSring" configurationId="JUnit" />
+    <history-entry file="PublicAction_getStudenti - 2019.08.16 at 12h 19m 38s.xml">
+      <configuration name="PublicAction.getStudenti" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PublicAction_getStudentSLikeSring1 - 2019.08.15 at 18h 21m 20s.xml">
+    <history-entry file="PublicAction_getStudenti - 2019.08.16 at 12h 25m 25s.xml">
+      <configuration name="PublicAction.getStudenti" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PublicAction_getStudentSLikeSring1 - 2019.08.16 at 12h 26m 06s.xml">
       <configuration name="PublicAction.getStudentSLikeSring1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PublicAction_getStudentSLikeSring1 - 2019.08.15 at 18h 23m 54s.xml">
+    <history-entry file="PublicAction_getStudentSLikeSring1 - 2019.08.16 at 12h 26m 56s.xml">
       <configuration name="PublicAction.getStudentSLikeSring1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PublicAction_getStudentSLikeSring1 - 2019.08.15 at 18h 24m 18s.xml">
-      <configuration name="PublicAction.getStudentSLikeSring1" configurationId="JUnit" />
+    <history-entry file="PublicAction_getStudenti - 2019.08.16 at 12h 27m 01s.xml">
+      <configuration name="PublicAction.getStudenti" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PublicAction_getStudentSLikeSring - 2019.08.15 at 18h 24m 28s.xml">
-      <configuration name="PublicAction.getStudentSLikeSring" configurationId="JUnit" />
+    <history-entry file="PublicAction_getStudenti - 2019.08.16 at 12h 27m 17s.xml">
+      <configuration name="PublicAction.getStudenti" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PublicAction_getStudentSLikeSring - 2019.08.15 at 18h 24m 56s.xml">
-      <configuration name="PublicAction.getStudentSLikeSring" configurationId="JUnit" />
+    <history-entry file="PublicAction_getStudenti - 2019.08.16 at 12h 30m 37s.xml">
+      <configuration name="PublicAction.getStudenti" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PublicAction_getStudentSLikeSring1 - 2019.08.15 at 18h 25m 11s.xml">
-      <configuration name="PublicAction.getStudentSLikeSring1" configurationId="JUnit" />
+    <history-entry file="PublicAction_getStudenti1 - 2019.08.16 at 12h 50m 45s.xml">
+      <configuration name="PublicAction.getStudenti1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PublicAction_getStudentSLikeSring - 2019.08.15 at 18h 25m 17s.xml">
-      <configuration name="PublicAction.getStudentSLikeSring" configurationId="JUnit" />
+    <history-entry file="PublicAction_getStudenti1 - 2019.08.16 at 12h 52m 23s.xml">
+      <configuration name="PublicAction.getStudenti1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PublicAction_getStudentSLikeSring - 2019.08.15 at 18h 25m 43s.xml">
-      <configuration name="PublicAction.getStudentSLikeSring" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PublicAction_getStudentSLikeSring1 - 2019.08.15 at 18h 27m 01s.xml">
-      <configuration name="PublicAction.getStudentSLikeSring1" configurationId="JUnit" />
+    <history-entry file="PublicAction_getStudenti1 - 2019.08.16 at 12h 52m 54s.xml">
+      <configuration name="PublicAction.getStudenti1" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33967000" />
+    <option name="totallyTimeSpent" value="39153000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2533512" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25670242" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -397,7 +410,7 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32885906" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32885906" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -534,18 +547,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/spj/mybatis/service/ServiceManage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="16" column="55" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
+        <state relative-caret-position="384">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/spj/mybatis/dao/StudentDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/spj/mybatis/service/ServiceMangeImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="76" column="25" selection-start-line="76" selection-start-column="25" selection-end-line="76" selection-end-column="25" />
+        <state relative-caret-position="348">
+          <caret line="101" column="32" lean-forward="true" selection-start-line="101" selection-start-column="32" selection-end-line="101" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/spj/mybatis/dao/StudentDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -554,19 +584,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/spj/mybatis/action/PublicAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="162" column="75" lean-forward="true" selection-start-line="162" selection-start-column="66" selection-end-line="162" selection-end-column="80" />
+        <state relative-caret-position="286">
+          <caret line="13" column="9" lean-forward="true" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4699#4708#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/spj/mybatis/dao/StudentDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="191" column="13" lean-forward="true" selection-start-line="191" selection-start-column="13" selection-end-line="191" selection-end-column="13" />
         </state>
       </provider>
     </entry>

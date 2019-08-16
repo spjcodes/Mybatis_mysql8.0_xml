@@ -2,7 +2,17 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.spj.mybatis.model.Student">
+<mapper namespace="com.spj.mybatis.dao.StudentDao">
+    <!--接口式编程
+        namespace 需要与类名一致
+        id 需要与对应的接口方法名一致
+        mybatis会采用动态代理自动调用sql
+        -->
+    <select id="getStudentsi" resultType="com.spj.mybatis.model.Student">
+        select * from student
+    </select>
+
+
     <!--#{id}占位符，类似于jdbc中的？,其中{}内的内容可以随便写-->
     <select id="selectStudent" parameterType="int" resultType="com.spj.mybatis.model.Student">
       select * from student where id = #{id}
@@ -12,6 +22,8 @@
     <select id="selectStudents" resultType="com.spj.mybatis.model.Student">
         select * from student
     </select>
+
+
 
     <!--${}字符串拼接符，可以输入任何合法字符无法防止sql注入-->
     <select id="seleteStudentByName" parameterType="string" resultType="com.spj.mybatis.model.Student">
